@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+#StoreItems {
+  width: 300px;
+  font-family: monospace;
+}
+
+#User {
+  width: 100px;
+  top: 0;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  background: antiquewhite;
+}
+
+.StoreItem {
+  text-align: center;
+  background: aliceblue;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 10px;
+}
+
+.Image {
+  width: 70px;
+}
+
+.Count {
+  color: green;
+}
+
+.Price {
+  color: blue;
+}
+
+.Price, .Count {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Name {
+  font-size: 20Px;
+  font-weight: bold;
+}
+
+.Name, .Count {
+  margin: 0;
+}
